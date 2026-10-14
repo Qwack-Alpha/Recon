@@ -1,0 +1,53 @@
+.reconciliationTable{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+.reconciliationTable th{
+
+padding:14px;
+
+text-align:left;
+
+border-bottom:1px solid #E2E8F0;
+
+}
+
+.reconciliationTable td{
+
+padding:14px;
+
+border-bottom:1px solid #F1F5F9;
+
+}
+
+.reconciliationTable tbody tr:hover{
+
+background:#F8FAFC;
+
+}
+
+.manualButton{
+
+background:#2563EB;
+
+color:white;
+
+border:none;
+
+padding:8px 14px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+.manualButton:hover{
+
+background:#1D4ED8;
+
+}

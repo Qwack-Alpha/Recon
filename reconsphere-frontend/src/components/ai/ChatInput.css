@@ -1,0 +1,37 @@
+.chatInput{
+
+display:flex;
+
+gap:12px;
+
+margin-top:20px;
+
+}
+
+.chatInput input{
+
+flex:1;
+
+padding:12px;
+
+border:1px solid #CBD5E1;
+
+border-radius:10px;
+
+}
+
+.chatInput button{
+
+padding:12px 24px;
+
+border:none;
+
+background:#2563EB;
+
+color:white;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}

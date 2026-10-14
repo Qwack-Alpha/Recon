@@ -1,0 +1,54 @@
+.exceptionTable{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+.exceptionTable th,
+.exceptionTable td{
+
+padding:14px;
+
+border-bottom:1px solid #E2E8F0;
+
+text-align:left;
+
+}
+
+.exceptionTable tbody tr:hover{
+
+background:#F8FAFC;
+
+}
+
+.actionButton{
+
+margin-right:8px;
+
+padding:8px 14px;
+
+border:none;
+
+border-radius:8px;
+
+background:#2563EB;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+.actionButton:disabled{
+
+    opacity:.55;
+
+    cursor:not-allowed;
+
+    background:#CBD5E1;
+
+    color:#475569;
+
+}

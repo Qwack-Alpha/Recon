@@ -1,0 +1,76 @@
+.reportTable{
+
+    width:100%;
+    
+    border-collapse:collapse;
+    
+    }
+    
+    .reportTable th,
+    .reportTable td{
+    
+    padding:14px;
+    
+    border-bottom:1px solid #E2E8F0;
+    
+    text-align:left;
+    
+    }
+    
+    .reportTable th{
+    
+    font-size:13px;
+    
+    text-transform:uppercase;
+    
+    letter-spacing:.04em;
+    
+    color:#64748B;
+    
+    }
+    
+    .rateRow td{
+    
+    font-weight:600;
+    
+    }
+    
+    .rateBar{
+    
+    position:relative;
+    
+    height:26px;
+    
+    background:#EEF2F7;
+    
+    border-radius:8px;
+    
+    overflow:hidden;
+    
+    max-width:320px;
+    
+    }
+    
+    .rateFill{
+    
+    height:100%;
+    
+    background:linear-gradient(90deg,#2563EB,#22C55E);
+    
+    }
+    
+    .rateBar span{
+    
+    position:absolute;
+    
+    top:0;
+    
+    left:12px;
+    
+    line-height:26px;
+    
+    font-size:13px;
+    
+    color:#0F172A;
+    
+    }

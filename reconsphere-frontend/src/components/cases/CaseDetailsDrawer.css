@@ -1,0 +1,264 @@
+.drawerOverlay{
+
+    position:fixed;
+    
+    inset:0;
+    
+    background:rgba(0,0,0,.35);
+    
+    display:flex;
+    
+    justify-content:flex-end;
+    
+    z-index:100;
+    
+    }
+    
+    .drawer{
+    
+    width:450px;
+    
+    height:100vh;
+    
+    background:white;
+    
+    padding:24px;
+    
+    overflow:auto;
+    
+    }
+    
+    .drawerHeader{
+    
+    display:flex;
+    
+    justify-content:space-between;
+    
+    align-items:center;
+    
+    margin-bottom:20px;
+    
+    }
+    
+    .drawerHeader button{
+    
+    background:none;
+    
+    border:none;
+    
+    font-size:24px;
+    
+    cursor:pointer;
+    
+    }
+    
+    .drawerTitle{
+    
+    font-weight:600;
+    
+    color:#0F172A;
+    
+    margin-bottom:16px;
+    
+    }
+    
+    .drawerSubtitle{
+    
+    margin-top:-8px;
+    
+    margin-bottom:14px;
+    
+    color:#64748B;
+    
+    font-size:14px;
+    
+    }
+    
+    .analyzeBtn{
+    
+    width:100%;
+    
+    height:44px;
+    
+    background:#2563EB;
+    
+    color:#fff;
+    
+    border:none;
+    
+    border-radius:10px;
+    
+    font-weight:600;
+    
+    cursor:pointer;
+    
+    margin-bottom:12px;
+    
+    transition:.2s;
+    
+    }
+    
+    .analyzeBtn:hover{
+    
+    background:#1D4ED8;
+    
+    }
+    
+    .analyzeBtn:disabled{
+    
+    opacity:.6;
+    
+    cursor:not-allowed;
+    
+    }
+    
+    .drawer h3{
+    
+    margin-top:22px;
+    
+    margin-bottom:8px;
+    
+    font-size:15px;
+    
+    color:#334155;
+    
+    font-weight:600;
+    
+    }
+    
+    .drawer p{
+    
+    line-height:1.6;
+    
+    color:#1E293B;
+    
+    }
+    
+    .confidence{
+    
+    margin-top:16px;
+    
+    font-weight:700;
+    
+    color:#059669;
+    
+    }
+    
+    /* ========================= */
+    /* Evidence Table */
+    /* ========================= */
+    
+    .evidenceTable{
+    
+    width:100%;
+    
+    border-collapse:collapse;
+    
+    margin-top:10px;
+    
+    margin-bottom:18px;
+    
+    font-size:13px;
+    
+    }
+    
+    .evidenceTable th{
+    
+    background:#F8FAFC;
+    
+    padding:10px;
+    
+    text-align:left;
+    
+    font-weight:600;
+    
+    color:#475569;
+    
+    border-bottom:1px solid #E2E8F0;
+    
+    }
+    
+    .evidenceTable td{
+    
+    padding:10px;
+    
+    border-bottom:1px solid #E2E8F0;
+    
+    color:#334155;
+    
+    }
+    
+    /* ========================= */
+    /* Recommendation List */
+    /* ========================= */
+    
+    .recommendationList{
+    
+    margin-top:10px;
+    
+    padding-left:20px;
+    
+    }
+    
+    .recommendationList li{
+    
+    margin-bottom:10px;
+    
+    line-height:1.5;
+    
+    color:#1E293B;
+    
+    }
+    
+    /* ========================= */
+    /* Optional Scrollbar */
+    /* ========================= */
+    
+    .drawer::-webkit-scrollbar{
+    
+    width:8px;
+    
+    }
+    
+    .drawer::-webkit-scrollbar-thumb{
+    
+    background:#CBD5E1;
+    
+    border-radius:20px;
+    
+    }
+    
+    .drawer::-webkit-scrollbar-track{
+    
+    background:#F8FAFC;
+    
+    }
+
+    .evidenceTable{
+        width:100%;
+        border-collapse:collapse;
+        margin-top:10px;
+        margin-bottom:18px;
+        font-size:13px;
+    }
+    
+    .evidenceTable th,
+    .evidenceTable td{
+        border:1px solid #E2E8F0;
+        padding:8px;
+        text-align:left;
+    }
+    
+    .evidenceTable th{
+        background:#F8FAFC;
+        font-weight:600;
+    }
+    
+    .recommendationList{
+        margin:8px 0 18px;
+        padding-left:20px;
+    }
+    
+    .recommendationList li{
+        margin-bottom:8px;
+    }

@@ -1,0 +1,39 @@
+.transactionTable{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+.transactionTable th{
+
+padding:14px;
+
+text-align:left;
+
+border-bottom:1px solid #E2E8F0;
+
+}
+
+.transactionTable td{
+
+padding:14px;
+
+border-bottom:1px solid #F1F5F9;
+
+}
+
+.transactionTable tbody tr{
+
+cursor:pointer;
+
+transition:.2s;
+
+}
+
+.transactionTable tbody tr:hover{
+
+background:#F8FAFC;
+
+}

@@ -1,0 +1,101 @@
+.uploadGrid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:24px;
+
+}
+
+@media(max-width:700px){
+
+    .uploadGrid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+.uploadGrid label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+
+.uploadGrid input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #CBD5E1;
+
+    border-radius:10px;
+
+    outline:none;
+
+}
+
+.uploadGrid input:focus{
+
+    border-color:#2563EB;
+
+}
+
+.uploadButton{
+
+    width:100%;
+
+    margin-top:24px;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:background .2s;
+
+}
+
+.uploadButton:hover{
+
+    background:#1D4ED8;
+
+}
+
+.uploadButton:disabled{
+
+    opacity:.65;
+
+    cursor:not-allowed;
+
+}
+
+@media(max-width:900px){
+
+.uploadGrid{
+
+grid-template-columns:1fr;
+
+}
+
+}

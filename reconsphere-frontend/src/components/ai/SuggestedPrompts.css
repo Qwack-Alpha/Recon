@@ -1,0 +1,25 @@
+.promptGrid{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-bottom:20px;
+
+}
+
+.promptGrid button{
+
+padding:10px 16px;
+
+border-radius:10px;
+
+border:1px solid #CBD5E1;
+
+background:white;
+
+cursor:pointer;
+
+}

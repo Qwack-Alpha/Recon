@@ -1,0 +1,32 @@
+.caseTable{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+.caseTable th,
+.caseTable td{
+
+padding:14px;
+
+border-bottom:1px solid #E2E8F0;
+
+text-align:left;
+
+}
+
+.caseTable tbody tr{
+
+cursor:pointer;
+
+transition:.2s;
+
+}
+
+.caseTable tbody tr:hover{
+
+background:#F8FAFC;
+
+}

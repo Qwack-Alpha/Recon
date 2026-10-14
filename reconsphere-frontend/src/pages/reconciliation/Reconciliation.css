@@ -1,0 +1,41 @@
+.reconciliationPage{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+}
+
+.runReconBtn{
+
+    align-self:flex-start;
+
+    height:46px;
+
+    padding:0 22px;
+
+    background:#2563EB;
+
+    color:#fff;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+
+.runReconBtn:hover{
+
+    background:#1D4ED8;
+
+}
+
+.runReconBtn:disabled{
+
+    opacity:.6;
+
+    cursor:not-allowed;
+
+}

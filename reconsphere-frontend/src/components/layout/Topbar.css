@@ -1,0 +1,154 @@
+.topbar {
+
+    height: 72px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 28px;
+
+    background: white;
+
+    border-bottom: 1px solid #e5e7eb;
+
+}
+
+.searchBox {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    background: #f3f4f6;
+
+    padding: 10px 14px;
+
+    border-radius: 12px;
+
+    width: 420px;
+
+}
+
+.searchBox input {
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    width: 100%;
+
+    font-size: 14px;
+
+}
+
+.topbarRight {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 24px;
+
+}
+
+.iconButton {
+
+    border: none;
+
+    background: transparent;
+
+    cursor: pointer;
+
+}
+
+.profile {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+.profileAvatar {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    background: #2563eb;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 700;
+
+}
+
+.profileName {
+
+    font-weight: 600;
+
+}
+
+.profileRole {
+
+    font-size: 12px;
+
+    color: #6b7280;
+
+}
+
+.menuButton {
+
+    display: none;
+
+    margin-right: 14px;
+
+}
+
+@media(max-width:900px) {
+
+    .menuButton {
+
+        display: inline-flex;
+
+    }
+
+    .searchBox {
+
+        width: 100%;
+
+    }
+
+    .profileName,
+    .profileRole {
+
+        display: none;
+
+    }
+
+    .topbar {
+
+        padding: 0 14px;
+
+        gap: 10px;
+
+    }
+
+}
